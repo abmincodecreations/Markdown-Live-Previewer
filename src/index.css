@@ -1,5 +1,6 @@
 body{
   background-color:#dcdde1 ;
+  width: 100vw;
 }
 body pre {
   background-color: #c8c9cfa8;
@@ -8,9 +9,28 @@ body pre {
 }
 body pre code {
   background-color: #c8c9cf7e;
-  
+}
+table thead tr th{
+  border: 2px;
+  border-color: rgb(5, 5, 5);
+  background-color: darkgrey;
+  border-style: groove;
+}
+blockquote{
+  align-items: center;
+  width: 95vw;
+  border-left-style: groove;
+  border-color: rgb(5, 5, 5);
+  background-color: darkgrey;
+  border-width: 5px;
+}
+table tbody tr td{
+  border: 2px;
+  border-color:  rgb(5, 5, 5);
+  border-style: groove;
 }
 .nav-bar{
+  width: 100vw;
   font-size: large;
   background-color: rgb(0, 0, 41);
   color: aliceblue;
@@ -44,7 +64,7 @@ textarea,.preview{
 }
 @media only screen and (max-width:576px ) {
   textarea,.preview{
-    min-width: 100vh;
+    min-width: 100vw;
   }
 
 }
