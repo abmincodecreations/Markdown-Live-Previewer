@@ -87,7 +87,7 @@ class App extends React.Component{
         <div className='footer-bar mt-4'>
           <p className="footertext">
             <a className="no-decoration" href="https://github.com/abmincodecreations">
-              &copy;Designed By Abhishek Mishra
+              &copy;Designed & developed By Abhishek Mishra
             </a>
           </p>
         </div>
